@@ -1,0 +1,10 @@
+cREAR_CLIENTE( "moises eduardo", "velasquez oliva", 1924821300101, "Residenciales Arrazola zona 4 de las cruces altas", 32120742, 12345678, "megustalapizza@gmail.com" );
+CREAR_CLIENTE( "gladys del rosario", "matheu jacinto", 2278617440101, "Carretera a El Salvador 5-67 Residenciales Nueva Vista Apto. 1-B", 46627605, 87654321, "hola@gmail.com" );
+CREAR_CLIENTE( "Josue David", "Galvez", 2278617440101, "zona 11, mixco", 46627605, 87654321, "megustalapizza@gmail.com" );
+CREAR_CLIENTE( "Josue David", "Galvez", 2278618440101, "Villa Nva. Minerva, Residenciales Valle Nuevo Sector #34 Apto. 11-B, z. 11, Mixco.", 46627605, 87654321, "megustalapizza@gmail.com" );
+enviar_mensaje(2,3,"hola");
+lista(0);
+lista(M);
+crear_cliente(1);
+CREAR_CLIENTE( "Moises", "Velasquez", 1924897890101, "zona 11", 12345678, 87654321, "megustalapizza@gmail.com" ); CREAR_CLIENTE( "Eduardo", "Oliva", 1924897890101, "zona 11", 12345678, 87654321, "megustalapizza@gmail.com" );
+enviar_mensaje(4,3,"adios"); obtener_mensajes(3);

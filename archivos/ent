@@ -1,0 +1,1 @@
+CREAR_CLIENTE( "Moises", "Velasquez", 1924897890101, "zona 11", 12345678, 87654321, "megustalapizza@gmail.com" ); CREAR_CLIENTE( "Eduardo", "Oliva", 1924897890101, "zona 11", 12345678, 87654321, "megustalapizza@gmail.com" );

@@ -1,0 +1,1 @@
+cREAR_CLIENTE("moises","velasquez",1234,"ciudad",12345678,87654321); lista(); reparar_cliente();

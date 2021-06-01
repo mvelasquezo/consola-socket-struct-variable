@@ -1,0 +1,7 @@
+CC=g++
+CFLAGS=-Wall -g
+#-std=c++11
+servidor: servidor.c
+	$(CC) $(CFLAGS) -o servidor -Iheaders servidor.c zstring.c lista.c
+clear:
+	rm servidor
