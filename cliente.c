@@ -1,14 +1,14 @@
-#include "zstring.h"
-#include "scanner.h"
-#include "lista.h"
-#include "estructura.h"
-
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <unistd.h>
 #include <stdlib.h>
+
+#include "zstring.h"
+#include "scanner.h"
+#include "lista.h"
+#include "estructura.h"
 
 int clisock;
 struct sockaddr_in cliaddr;

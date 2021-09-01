@@ -1,14 +1,14 @@
-#include "zstring.h"
-#include "lista.h"
-#include "cola.h"
-#include "scanner.h"
-#include "estructura.h"
-
 #include <sys/socket.h>
 #include <sys/types.h>
 #include <arpa/inet.h>
 #include <netinet/in.h>
 #include <unistd.h>
+
+#include "zstring.h"
+#include "lista.h"
+#include "cola.h"
+#include "scanner.h"
+#include "estructura.h"
 
 Nodo *ini = NULL, *fin = NULL, *iniMsj = NULL, *finMsj = NULL;
 unsigned int corrCli = 0;

@@ -1,7 +1,5 @@
 CC=g++
-CFLAGS=-Wall -g
-#-std=c++11
-#zstring.c lista.c scanner.c
+CFLAGS=-Wall -g -std=c++11
 
 all: cliente servidor
 
