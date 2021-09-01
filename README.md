@@ -37,7 +37,7 @@ Después abrir otra terminal y ejecutar el cliente. Existen varias formas de eje
 Sino se provee la opción -f seguido del *directorio/nombre-archivo-entrada*, la aplicación se queda *escuchando* para que se introduzca cualquiera de los siguientes comandos. Todos los parámetros alfanuméricos deben ser enviados entre comillas dobles (**"**)
 
 | Comando | Params                    | Respuesta |
-| ------------- | ------------------------------ |
+| ------------- | ------------------------------ | ------------- |
 | `$ CREAR_CLIENTE(params)`      | Nombre, Apellidos, No. de DPI, Domicilio, Teléfono móvil, Teléfono residencial, correo electrónico | [RETORNO: ID_CLIENTE] |
 | `$ ENVIAR_MENSAJE(params)`   | ID de cliente emisor, ID de cliente receptor, Mensaje | [RETORNO: Mensaje éxito/error] |
 | `$ OBTENER_MENSAJES(params)`   | ID de cliente | [RETORNO: Mensaje] |
